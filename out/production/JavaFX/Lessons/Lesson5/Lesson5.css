@@ -1,0 +1,15 @@
+.root{
+    -fx-background-color: "black";
+
+}
+
+.label { /*整个项目类别*/
+    -fx-font-size: 20pt;
+    -fx-font-family: "Lucida Console";
+    -fx-text-fill: white;
+    -fx-alignment: center;
+}
+
+#titleLabel { /*通过id*来定位特定项目*/
+    -fx-font-size: 40pt;
+}
