@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="775.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/8.0.171"
+      xmlns:fx="http://javafx.com/fxml/1"
+fx:controller="src.Controller">
+   <children>
+      <Pane prefHeight="200.0" prefWidth="500.0">
+         <children>
+            <Label layoutX="382.0" layoutY="34.0" prefHeight="32.0" prefWidth="97.0" />
+            <Label alignment="TOP_RIGHT" layoutX="320.0" layoutY="109.0" prefHeight="73.0" prefWidth="159.0" text="0">
+               <font>
+                  <Font size="31.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Pane layoutY="200.0" prefHeight="577.0" prefWidth="500.0">
+         <children>
+            <Button layoutX="14.0" layoutY="14.0" mnemonicParsing="false" prefHeight="73.0" prefWidth="66.0" text="\%" onAction="#onClicked" />
+            <Button layoutX="14.0" layoutY="97.0" mnemonicParsing="false" prefHeight="73.0" prefWidth="66.0" text="1/X" onAction="#onClicked" />
+            <Button layoutX="14.0" layoutY="181.0" mnemonicParsing="false" prefHeight="73.0" prefWidth="66.0" text="7" onAction="#onClicked" />
+            <Button layoutX="14.0" layoutY="269.0" mnemonicParsing="false" prefHeight="73.0" prefWidth="66.0" text="4" onAction="#onClicked" />
+            <Button layoutX="14.0" layoutY="356.0" mnemonicParsing="false" prefHeight="73.0" prefWidth="66.0" text="1" onAction="#onClicked" />
+            <Button layoutX="128.0" layoutY="14.0" mnemonicParsing="false" prefHeight="73.0" prefWidth="66.0" text="CE" onAction="#onClicked" />
+            <Button layoutX="128.0" layoutY="97.0" mnemonicParsing="false" prefHeight="73.0" prefWidth="66.0" text="X²" onAction="#onClicked" />
+            <Button layoutX="128.0" layoutY="181.0" mnemonicParsing="false" prefHeight="73.0" prefWidth="66.0" text="8" onAction="#onClicked"/>
+            <Button layoutX="128.0" layoutY="269.0" mnemonicParsing="false" prefHeight="73.0" prefWidth="66.0" text="5" onAction="#onClicked"/>
+            <Button layoutX="128.0" layoutY="356.0" mnemonicParsing="false" prefHeight="73.0" prefWidth="66.0" text="2" onAction="#onClicked"/>
+            <Button layoutX="242.0" layoutY="14.0" mnemonicParsing="false" prefHeight="73.0" prefWidth="66.0" text="C" onAction="#onClicked"/>
+            <Button layoutX="242.0" layoutY="97.0" mnemonicParsing="false" prefHeight="73.0" prefWidth="66.0" text="X^1/2" onAction="#onClicked"/>
+            <Button layoutX="242.0" layoutY="181.0" mnemonicParsing="false" prefHeight="73.0" prefWidth="66.0" text="9" onAction="#onClicked"/>
+            <Button layoutX="242.0" layoutY="269.0" mnemonicParsing="false" prefHeight="73.0" prefWidth="66.0" text="6" onAction="#onClicked"/>
+            <Button layoutX="242.0" layoutY="356.0" mnemonicParsing="false" prefHeight="73.0" prefWidth="66.0" text="3" onAction="#onClicked"/>
+            <Button layoutX="354.0" layoutY="14.0" mnemonicParsing="false" prefHeight="73.0" prefWidth="66.0" text="BS" onAction="#onClicked"/>
+            <Button layoutX="354.0" layoutY="97.0" mnemonicParsing="false" prefHeight="73.0" prefWidth="66.0" text="÷" onAction="#onClicked"/>
+            <Button layoutX="354.0" layoutY="181.0" mnemonicParsing="false" prefHeight="73.0" prefWidth="66.0" text="X" onAction="#onClicked"/>
+            <Button layoutX="354.0" layoutY="269.0" mnemonicParsing="false" prefHeight="73.0" prefWidth="66.0" text="-" onAction="#onClicked"/>
+            <Button layoutX="354.0" layoutY="356.0" mnemonicParsing="false" prefHeight="73.0" prefWidth="66.0" text="+" onAction="#onClicked"/>
+            <Button layoutX="14.0" layoutY="443.0" mnemonicParsing="false" prefHeight="73.0" prefWidth="66.0" text="+/-" onAction="#onClicked"/>
+            <Button layoutX="128.0" layoutY="443.0" mnemonicParsing="false" prefHeight="73.0" prefWidth="66.0" text="0" onAction="#onClicked"/>
+            <Button layoutX="242.0" layoutY="443.0" mnemonicParsing="false" prefHeight="73.0" prefWidth="66.0" text="." onAction="#onClicked"/>
+            <Button layoutX="354.0" layoutY="443.0" mnemonicParsing="false" prefHeight="73.0" prefWidth="66.0" text="=" onAction="#onClicked"/>
+         </children>
+      </Pane>
+   </children>
+</Pane>
