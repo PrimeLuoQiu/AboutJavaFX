@@ -1,4 +1,4 @@
-package Lessons.Lesson11;
+package Lessons.Lesson12;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
@@ -14,7 +14,7 @@ public class Main extends Application {
     }
 
     public void start(Stage primaryStage) throws IOException {
-        Parent root = FXMLLoader.load(getClass().getResource("/Lessons/Lesson11/Scene.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("Scene.fxml"));
         Scene scene = new Scene(root);
         primaryStage.setScene(scene);
         primaryStage.show();

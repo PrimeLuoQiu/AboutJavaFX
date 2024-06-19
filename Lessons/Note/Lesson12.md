@@ -1,0 +1,5 @@
+RadioButton
+
+单选盒子，可以多选一，唯一要记住的就是在SceneBuilder中要为创建的这个选择写一个分类，代表这个类的东西，这样才可以做到，例如
+
+Toggle Group选择成为food，最后这三个选择的Toggle Group都是这个分组
